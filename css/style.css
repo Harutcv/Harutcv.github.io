@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image: url(../img/cube.jpg);
+    background-color: #B7C9D8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,19 +14,20 @@ body,html,h1,h2,h3,h4,h5,h6{
 }
 .container{
     max-width: 1400px;
-    margin-top: 30px;
     
 }
 .w3-content{
     max-width: 1400px;
 }
 #mania,.dark{
-    background-color: rgba(255,255,255,0.6);
-    border-radius: 15px;
     
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
 }
-.radius{
-    border-radius: 15px 15px 0px 0px;
+.w3-card, .w3-card-4{
+    background-color: #fff;
+    border-radius: 20px;
 }
 .text{
     color: #000;
@@ -45,14 +46,16 @@ body,html,h1,h2,h3,h4,h5,h6{
     background-color: #fff;
 }
 .w3-display-bottomleft h2{
-    color: #d40000;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 15px;
     text-align: center;
-    background-color: rgba(25,25,25,0.8);
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     font-weight: bold;
     font-family: "Arial-black";
     font-size: 26px;
+    
 }
 .card-map{
     width: 100%;
@@ -131,6 +134,7 @@ body,html,h1,h2,h3,h4,h5,h6{
     box-sizing: border-box;
     padding: 10px 5px 10px 5px;
     text-align: center;
+    margin-bottom: 25px;
 }
 footer{
     padding: 0px;
@@ -148,14 +152,16 @@ footer a{
     margin-left: 15px;
 }
 @media only screen and (max-width: 375px){
-    .w3-display-bottomleft h2{
+    .w3-container .w3-display-bottomleft h2{
         font-size: 18px;
-        text-align: center;
-        justify-content: center;
+        color: #000;
     }
     .w3-container .media{
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
+    }
+    .w3-container .text{
+        
     }
 }
 @media only screen and (max-width: 390px){
